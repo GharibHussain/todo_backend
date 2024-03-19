@@ -5,7 +5,7 @@ create database todo;
 use todo;
 
 create table task(
-    id primary key auto_increment,
+    id serial primary key,
     description varchar(255) not null
 );
 
